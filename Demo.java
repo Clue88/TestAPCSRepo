@@ -1,9 +1,9 @@
 public class Demo {
     public static void main(String[] args) {
-        // int n = Integer.parseInt(args[0]);
-        // printLoop(n);
+        int n = Integer.parseInt(args[0]);
+        printLoop(n);
 
-        System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ", "},\n"));
+        // System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ", "},\n"));
     }
 
     public static void printLoop(int n) {
