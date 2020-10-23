@@ -3,7 +3,7 @@ public class Demo {
         int n = Integer.parseInt(args[0]);
         printLoop(n);
 
-        // System.out.println(arrDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ", "},\n"));
+        // System.out.println(arrayDeepToString(create2DArrayRandomized(6, 4, 4)).replace("}, ", "},\n"));
     }
 
     public static void printLoop(int n) {
@@ -37,7 +37,7 @@ public class Demo {
         return out;
     }
 
-    public static String arrDeepToString(int[][] arr) {
+    public static String arrayDeepToString(int[][] arr) {
         String[] strings = new String[arr.length];
         for (int i = 0; i < arr.length; i++) {
             strings[i] = arrToString(arr[i]);
